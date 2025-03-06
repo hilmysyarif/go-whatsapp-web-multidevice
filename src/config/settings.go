@@ -5,10 +5,10 @@ import (
 )
 
 var (
-	AppVersion               = "v5.3.0"
+	AppVersion               = "v0.0.1"
 	AppPort                  = "3000"
 	AppDebug                 = false
-	AppOs                    = "AldinoKemal"
+	AppOs                    = ""
 	AppPlatform              = waCompanionReg.DeviceProps_PlatformType(1)
 	AppBasicAuthCredential   []string
 	AppChatFlushIntervalDays = 7 // Number of days before flushing chat.csv
